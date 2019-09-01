@@ -1,0 +1,29 @@
+name: mlenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - autopep8=1.4.4=py_0
+  - beautifulsoup4=4.8.0=py36_0
+  - isort=4.3.21=py36_0
+  - jupyter=1.0.0=py36_7
+  - jupyter_contrib_nbextensions=0.5.1=py36_0
+  - lxml=4.4.1=py36hefd8a0e_0
+  - matplotlib=3.1.1=py36h5429711_0
+  - mlxtend=0.17.0=py_0
+  - numpy=1.16.4=py36h7e9f1db_0
+  - pandas=0.25.1=py36he6710b0_0
+  - pillow=6.1.0=py36h34e0f95_0
+  - pip=19.2.2=py36_0
+  - pydotplus=2.0.2=py36_1
+  - python=3.6.9=h265db76_0
+  - requests=2.22.0=py36_0
+  - scikit-learn=0.21.2=py36hd81dba3_0
+  - seaborn=0.9.0=py36_0
+  - xlrd=1.2.0=py36_0
+  - yapf=0.28.0=py_0
+  - pip:
+    - keras==2.2.5
+    - tensorflow-gpu==1.12.0
+prefix: /opt/conda/envs/mlenv
+

@@ -1,0 +1,11 @@
+version: '3'
+services:
+  mlenv:
+    build: ./docker
+    ports:
+      - "6006:6006"
+      - "8888:8888"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./.keras_datasets:/root/.keras/datasets
+      - ./src:/src
